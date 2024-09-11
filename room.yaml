@@ -1,0 +1,55 @@
+room_width: 10
+room_height: 10
+
+doors:
+  - name: Porta d'ingresso
+    position: [5, 0]
+    length: 2
+    is_horizontal: true
+  - name: Porta del balcone
+    position: [0, 6]
+    length: 2
+    is_horizontal: false
+
+furnitures:
+  - name: Divano
+    width: 4
+    height: 3
+    color: red
+    front: long_side
+  - name: Sedia
+    width: 1
+    height: 1
+    color: white
+    preferred_on_wall: false
+    nearby_furniture: [Tavolo]
+  - name: Tavolo
+    width: 2
+    height: 2
+    color: brown
+    preferred_on_wall: false
+  - name: TV
+    width: 2
+    height: 1
+    color: grey
+    preferred_on_wall: true
+    front: long_side
+    nearby_furniture: [Divano]
+  - name: Libreria
+    width: 3
+    height: 1
+    color: violet
+    front: long_side
+    preferred_on_wall: true
+  - name: Scrivania
+    width: 4
+    height: 2
+    color: 'orange'
+    front: long_side
+    preferred_on_wall: true
+  - name: Sedia da ufficio
+    width: 1
+    height: 1
+    color: 'blue'
+    preferred_on_wall: false
+    nearby_furniture: [Scrivania]

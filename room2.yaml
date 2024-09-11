@@ -1,0 +1,107 @@
+room_width: 15
+room_height: 12
+
+doors:
+  - name: Ingresso principale
+    position: [7, 0]
+    length: 3
+    is_horizontal: true
+  - name: Porta della cucina
+    position: [15, 5]
+    length: 2
+    is_horizontal: false
+  - name: Porta del balcone
+    position: [0, 9]
+    length: 2
+    is_horizontal: false
+
+furnitures:
+  - name: Divano
+    width: 5
+    height: 2
+    color: 'red'
+    front: long_side
+    preferred_on_wall: true
+    nearby_furniture: [Tavolino]
+  - name: Tavolino
+    width: 2
+    height: 2
+    color: 'brown'
+    preferred_on_wall: false
+  - name: Mobile TV
+    width: 4
+    height: 1
+    color: 'brown'
+    front: long_side
+    preferred_on_wall: true
+    nearby_furniture: [Divano]
+  - name: Tavolo
+    width: 3
+    height: 3
+    color: 'darkgreen'
+    preferred_on_wall: false
+  - name: Sedia 1
+    width: 1
+    height: 1
+    color: 'white'
+    preferred_on_wall: false
+    nearby_furniture: [Tavolo]
+  - name: Sedia 2
+    width: 1
+    height: 1
+    color: 'white'
+    preferred_on_wall: false
+    nearby_furniture: [Tavolo]
+  - name: Sedia 3
+    width: 1
+    height: 1
+    color: 'white'
+    preferred_on_wall: false
+    nearby_furniture: [Tavolo]
+  - name: Sedia da pranzo 4
+    width: 1
+    height: 1
+    color: 'white'
+    preferred_on_wall: false
+    nearby_furniture: [Tavolo]
+  - name: Libreria
+    width: 3
+    height: 2
+    color: 'darkviolet'
+    front: long_side
+    preferred_on_wall: true
+  - name: Letto
+    width: 6
+    height: 4
+    color: 'lightyellow'
+    preferred_on_wall: false
+  - name: Comodino 1
+    width: 1
+    height: 1
+    color: 'lightgrey'
+    preferred_on_wall: false
+    nearby_furniture: [Letto]
+  - name: Comodino 2
+    width: 1
+    height: 1
+    color: 'lightgrey'
+    preferred_on_wall: false
+    nearby_furniture: [Letto]
+  - name: Armadio
+    width: 4
+    height: 2
+    color: 'navy'
+    front: long_side
+    preferred_on_wall: true
+  - name: Scrivania
+    width: 4
+    height: 2
+    color: 'orange'
+    front: long_side
+    preferred_on_wall: true
+  - name: Sedia da ufficio
+    width: 1
+    height: 1
+    color: 'blue'
+    preferred_on_wall: false
+    nearby_furniture: [Scrivania]
